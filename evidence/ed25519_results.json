@@ -1,0 +1,9 @@
+{
+  "algorithm": "Ed25519",
+  "key_pair_generated": true,
+  "public_key_file": "evidence/agent_public_key.pem",
+  "private_key_file": "secrets/agent_private_key.pem",
+  "valid_message_accepted": true,
+  "tampered_message_rejected": true,
+  "simulation": "LOCAL_CRYPTOGRAPHIC_TEST"
+}

@@ -1,0 +1,27 @@
+{
+    "module": "SecureNova Anomaly Detection",
+    "tests": {
+        "20_requests_within_60_seconds": true,
+        "scope_change_detection": true,
+        "expired_token_reuse_detection": true
+    },
+    "alerts": [
+        {
+            "type": "HIGH_REQUEST_RATE",
+            "requests": 20,
+            "window_seconds": 60,
+            "alert": "20 or more requests within 60 seconds"
+        },
+        {
+            "type": "SCOPE_CHANGE",
+            "previous_scope": "read:ai-data",
+            "current_scope": "read:ai-data write:admin",
+            "alert": "Unexpected scope change detected"
+        },
+        {
+            "type": "EXPIRED_TOKEN_REUSE",
+            "alert": "Expired token reuse attempt detected"
+        }
+    ],
+    "simulation": "LOCAL_SYNTHETIC_TEST"
+}

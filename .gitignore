@@ -1,0 +1,13 @@
+secrets/
+
+# Python environment
+.venv/
+__pycache__/
+
+# Secrets and credentials
+secrets/
+.env
+.env.*
+
+# Reference archives
+*.zip
