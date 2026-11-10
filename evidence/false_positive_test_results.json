@@ -1,0 +1,89 @@
+{
+  "test_type": "Local risk-rule test simulation",
+  "total_tests": 10,
+  "allowed": 10,
+  "false_positives": 0,
+  "false_positive_rate_percent": 0.0,
+  "results": [
+    {
+      "id": "LEGIT-01",
+      "login_risk": "low",
+      "ip": "192.0.2.1",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    },
+    {
+      "id": "LEGIT-02",
+      "login_risk": "low",
+      "ip": "192.0.2.2",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    },
+    {
+      "id": "LEGIT-03",
+      "login_risk": "low",
+      "ip": "192.0.2.3",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    },
+    {
+      "id": "LEGIT-04",
+      "login_risk": "low",
+      "ip": "192.0.2.4",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    },
+    {
+      "id": "LEGIT-05",
+      "login_risk": "low",
+      "ip": "192.0.2.5",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    },
+    {
+      "id": "LEGIT-06",
+      "login_risk": "low",
+      "ip": "192.0.2.6",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    },
+    {
+      "id": "LEGIT-07",
+      "login_risk": "low",
+      "ip": "192.0.2.7",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    },
+    {
+      "id": "LEGIT-08",
+      "login_risk": "low",
+      "ip": "192.0.2.8",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    },
+    {
+      "id": "LEGIT-09",
+      "login_risk": "low",
+      "ip": "192.0.2.9",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    },
+    {
+      "id": "LEGIT-10",
+      "login_risk": "low",
+      "ip": "192.0.2.10",
+      "result": "ALLOW",
+      "expected": "ALLOW",
+      "false_positive": false
+    }
+  ]
+}
